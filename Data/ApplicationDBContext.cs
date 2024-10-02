@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using JPBank.Models.DbModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace JPBank.Data
 {
@@ -8,5 +9,7 @@ namespace JPBank.Data
         {
 
         }
+
+        public DbSet<UserDbModel> Tbl_Users { get; set; } // Tbl_User is the table name
     }
 }
