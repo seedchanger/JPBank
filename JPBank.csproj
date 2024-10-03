@@ -14,4 +14,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\template\css\" />
+    <Folder Include="wwwroot\template\fonts\" />
+    <Folder Include="wwwroot\template\js\" />
+  </ItemGroup>
+
 </Project>
